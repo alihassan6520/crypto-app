@@ -1,0 +1,27 @@
+# Ignore compiled Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local development environment
+venv/
+.env
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore project-specific files and directories
+*.log
+db.sqlite3
+static/
+media/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore package dependencies (use requirements.txt or similar for that)
+lib/
+bin/
